@@ -3,11 +3,11 @@ import ExpenseDate from './ExpenseDate'
 
 function ExpenseItem(props){
 
-    const day = props.expenseData.date.toLocaleString
-        ('en-US', {day: '2-digit'})
-    const month = props.expenseData.date.
-        toLocaleString('en-US', {month: 'long'})
-    const year = props.expenseData.date.getFullYear()
+    //const day = props.expenseData.date.toLocaleString
+        //('en-US', {day: '2-digit'})
+    //const month = props.expenseData.date.
+        //toLocaleString('en-US', {month: 'long'})
+    //const year = props.expenseData.date.getFullYear()
 
     return (
         <div className="expense-item">
