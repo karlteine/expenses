@@ -1,15 +1,15 @@
-import React from 'react';
+import Card from './Card'
 import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
 
 function Expenses(props) {
+    
     return (
-      <div className="card expenses">
-        {props.expenses.map((expense, index) => (
-          <ExpenseItem key={index} expenseData={expense} />
-        ))}
-      </div>
-    );
-  }
+        <Card className="expenses">
+                <ExpenseItem expenseData={props.expenses[0]} />
+                <ExpenseItem expenseData={props.expenses[1]} />
+        </Card>
+    )
+}
 
 export default Expenses;
