@@ -22,6 +22,6 @@
     font-weight: bold;
     border-radius: 6px;
 }
-.no-year{
+.fallback {
     color: red;
 } 

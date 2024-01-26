@@ -10,9 +10,14 @@ const App = () => {
       price: 30.99
     },
     {
-      date: new Date(2023, 9, 6),
+      date: new Date(2024, 0, 19),
       title: 'New jeans',
       price: 99.99
+    },
+    {  
+      date: new Date(2024, 0, 25),
+      title: 'New bag',
+      price: 139.99
     }
   ]
   
